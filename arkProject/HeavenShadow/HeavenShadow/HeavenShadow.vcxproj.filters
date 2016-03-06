@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主对话框">
+      <UniqueIdentifier>{e8967836-3339-4be5-85e8-5e93c5666e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：进程">
+      <UniqueIdentifier>{7c6e02d8-cff1-488b-bbc6-381abd7ac141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：服务">
+      <UniqueIdentifier>{ac2bdd48-ac02-4c4e-815c-31f32d87b798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：模块">
+      <UniqueIdentifier>{66bcb5e6-0155-4fe4-9639-c4f7f951951a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通用文件">
+      <UniqueIdentifier>{7232feb3-998d-49d1-be1b-a5c82b99cee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主对话框\MyListCtrl">
+      <UniqueIdentifier>{bfef2f38-76fc-456e-a17c-0806c7fe8035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：警告">
+      <UniqueIdentifier>{62837207-1a9f-40d8-b27c-43bec063184c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：进程\对话框：进程查看">
+      <UniqueIdentifier>{409a277b-e935-4a16-8bcb-2f39c93c89b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：文件">
+      <UniqueIdentifier>{cd12a9fa-1165-48fa-bc9d-fda5a44e8666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主对话框\TrueColorToolBar">
+      <UniqueIdentifier>{0081ba72-8dbb-4756-a9cc-c43662828415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：进程\对话框：进程查看\MyEdit">
+      <UniqueIdentifier>{978d8f23-085b-40d2-95de-d6d4b920c852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：设置">
+      <UniqueIdentifier>{187136f8-b929-42ba-a89f-85f468755d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：工具箱">
+      <UniqueIdentifier>{4c8702ed-28cc-44f6-9ba1-4b9a1a537cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主对话框\MyPicButton">
+      <UniqueIdentifier>{faa3185b-3234-47e4-9a3e-f7eb02439c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：欢迎页">
+      <UniqueIdentifier>{4d019f13-de81-43ff-9ad4-7f6e593befaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主对话框\MyText">
+      <UniqueIdentifier>{865ad5bf-b6ad-4c9b-9f86-fdb75d6a8073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核钩子">
+      <UniqueIdentifier>{c89dcef6-342d-4d73-bf67-65e6175be83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核钩子\ShadowSSDT">
+      <UniqueIdentifier>{b178911c-d483-491c-a173-7de48768a193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核钩子\内核函数">
+      <UniqueIdentifier>{f94994a2-fa95-42bb-815a-fed46e72980d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核钩子\SSDT">
+      <UniqueIdentifier>{57c54be0-e34c-41bc-b694-9d1da9995439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核">
+      <UniqueIdentifier>{92468187-99be-4395-9a84-8b3b4e0d342c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核\内核线程">
+      <UniqueIdentifier>{8e1feaf3-f326-47c0-8c9f-595c65d56d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核\IOTimer">
+      <UniqueIdentifier>{a6695778-8cd1-4060-bf9e-0eb611019311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核\系统回调">
+      <UniqueIdentifier>{824241e3-5aca-4e13-8c31-fee1b1aca203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核\DPCTimer">
+      <UniqueIdentifier>{36b65559-1511-4b10-857d-f9bc104688de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框：内核\过滤驱动">
+      <UniqueIdentifier>{df342808-8375-4b69-9c1e-e76b704a12f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\HeavenShadow.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HeavenShadow.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LOGO.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_process.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_module.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_service.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_process_now.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_module_now.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_service_now.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_logo.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_logo_now.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\alert_btnexit.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SYSTEM_ALERT.WAV">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\alert_btn_allow.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\alert_btn_prevent.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_file.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_file_now.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_toolbar_goto.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\alert_btn_allow_clicked.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\alert_btn_prevent_clicked.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\drivers\HeavenShadowSys32.sys">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\drivers\HeavenShadowSys64.sys">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_system.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_system_now.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_setting.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_setting_now.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_tools.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_tools_now.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mainmenu_button.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HeavenShadowLittle.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_kernel.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar_kernel_now.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\check_alt_v.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\check_alt_x.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HomeCheckBtn.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HomeCheckBtn_hover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HomeCheckBtn_click.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WzdSplash.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WzdSplash.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeavenShadowDlg.h">
+      <Filter>主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavenShadow.h">
+      <Filter>主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessDlg.h">
+      <Filter>对话框：进程</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceDlg.h">
+      <Filter>对话框：服务</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleDlg.h">
+      <Filter>对话框：模块</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessFunc.h">
+      <Filter>对话框：进程</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyList.h">
+      <Filter>主对话框\MyListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HsAboutDlg.h">
+      <Filter>对话框：欢迎页</Filter>
+    </ClInclude>
+    <ClInclude Include="AlertWnd.h">
+      <Filter>对话框：警告</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadFunc.h">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSys.h">
+      <Filter>通用文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDlg.h">
+      <Filter>对话框：文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFunc.h">
+      <Filter>对话框：文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueColorToolBar.h">
+      <Filter>主对话框\TrueColorToolBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivilegeFunc.h">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClInclude>
+    <ClInclude Include="DetailFunc.h">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleFunc.h">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>对话框：进程\对话框：进程查看\MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemDlg.h">
+      <Filter>对话框：内核</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolsDlg.h">
+      <Filter>对话框：工具箱</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDlg.h">
+      <Filter>对话框：设置</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPicButton.h">
+      <Filter>主对话框\MyPicButton</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryFunc.h">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClInclude>
+    <ClInclude Include="MyText.h">
+      <Filter>主对话框\MyText</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelDlg.h">
+      <Filter>对话框：内核钩子</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDTFunc.h">
+      <Filter>对话框：内核钩子\SSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="InjectFunc.h">
+      <Filter>对话框：进程</Filter>
+    </ClInclude>
+    <ClInclude Include="MyText2.h">
+      <Filter>对话框：欢迎页</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCheckBtn.h">
+      <Filter>对话框：欢迎页</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowFunc.h">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClInclude>
+    <ClInclude Include="PModuleFunc.h">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleFunc.h">
+      <Filter>对话框：模块</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessViewDlg.h">
+      <Filter>对话框：进程</Filter>
+    </ClInclude>
+    <ClInclude Include="WzdSplash.h" />
+    <ClInclude Include="SSSDTFunc.h">
+      <Filter>对话框：内核钩子\ShadowSSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelFunc.h">
+      <Filter>对话框：内核钩子\内核函数</Filter>
+    </ClInclude>
+    <ClInclude Include="SysThread.h">
+      <Filter>对话框：内核\内核线程</Filter>
+    </ClInclude>
+    <ClInclude Include="IoTimerFunc.h">
+      <Filter>对话框：内核\IOTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbackFunc.h">
+      <Filter>对话框：内核\系统回调</Filter>
+    </ClInclude>
+    <ClInclude Include="DpcTimerFunc.h">
+      <Filter>对话框：内核\DPCTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterDriverFunc.h">
+      <Filter>对话框：内核\过滤驱动</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HeavenShadow.cpp">
+      <Filter>主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavenShadowDlg.cpp">
+      <Filter>主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessDlg.cpp">
+      <Filter>对话框：进程</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceDlg.cpp">
+      <Filter>对话框：服务</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleDlg.cpp">
+      <Filter>对话框：模块</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessFunc.cpp">
+      <Filter>对话框：进程</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>通用文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>通用文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyList.cpp">
+      <Filter>主对话框\MyListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="HsAboutDlg.cpp">
+      <Filter>对话框：欢迎页</Filter>
+    </ClCompile>
+    <ClCompile Include="AlertWnd.cpp">
+      <Filter>对话框：警告</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadFunc.cpp">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSys.cpp">
+      <Filter>通用文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDlg.cpp">
+      <Filter>对话框：文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFunc.cpp">
+      <Filter>对话框：文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueColorToolBar.cpp">
+      <Filter>主对话框\TrueColorToolBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PrivilegeFunc.cpp">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClCompile>
+    <ClCompile Include="DetailFunc.cpp">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleFunc.cpp">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>对话框：进程\对话框：进程查看\MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemDlg.cpp">
+      <Filter>对话框：内核</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsDlg.cpp">
+      <Filter>对话框：工具箱</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDlg.cpp">
+      <Filter>对话框：设置</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPicButton.cpp">
+      <Filter>主对话框\MyPicButton</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryFunc.cpp">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClCompile>
+    <ClCompile Include="MyText.cpp">
+      <Filter>主对话框\MyText</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelDlg.cpp">
+      <Filter>对话框：内核钩子</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDTFunc.cpp">
+      <Filter>对话框：内核钩子\SSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonNotify.cpp">
+      <Filter>主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="InjectFunc.cpp">
+      <Filter>对话框：进程</Filter>
+    </ClCompile>
+    <ClCompile Include="MyText2.cpp">
+      <Filter>对话框：欢迎页</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCheckBtn.cpp">
+      <Filter>对话框：欢迎页</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowFunc.cpp">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClCompile>
+    <ClCompile Include="PModuleFunc.cpp">
+      <Filter>对话框：进程\对话框：进程查看</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleFunc.cpp">
+      <Filter>对话框：模块</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessViewDlg.cpp">
+      <Filter>对话框：进程</Filter>
+    </ClCompile>
+    <ClCompile Include="WzdSplash.cpp" />
+    <ClCompile Include="SSSDTFunc.cpp">
+      <Filter>对话框：内核钩子\ShadowSSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSDTName.cpp">
+      <Filter>对话框：内核钩子\ShadowSSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelFunc.cpp">
+      <Filter>对话框：内核钩子\内核函数</Filter>
+    </ClCompile>
+    <ClCompile Include="SysThread.cpp">
+      <Filter>对话框：内核\内核线程</Filter>
+    </ClCompile>
+    <ClCompile Include="IoTimerFunc.cpp">
+      <Filter>对话框：内核\IOTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbackFunc.cpp">
+      <Filter>对话框：内核\系统回调</Filter>
+    </ClCompile>
+    <ClCompile Include="DpcTimerFunc.cpp">
+      <Filter>对话框：内核\DPCTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterDriverFunc.cpp">
+      <Filter>对话框：内核\过滤驱动</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HeavenShadow.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

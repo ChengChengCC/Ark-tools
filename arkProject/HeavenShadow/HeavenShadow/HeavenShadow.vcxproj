@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A8649B59-9CD1-4E45-A2EE-C390FFFCB8A0}</ProjectGuid>
+    <RootNamespace>HeavenShadow</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>user32.lib</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <UACUIAccess>true</UACUIAccess>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\alert_btnexit.bmp" />
+    <None Include="res\alert_btn_allow.bmp" />
+    <None Include="res\alert_btn_allow_clicked.bmp" />
+    <None Include="res\alert_btn_prevent.bmp" />
+    <None Include="res\alert_btn_prevent_clicked.bmp" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\check_alt_v.bmp" />
+    <None Include="res\check_alt_x.bmp" />
+    <None Include="res\drivers\HeavenShadowSys32.sys" />
+    <None Include="res\drivers\HeavenShadowSys64.sys" />
+    <None Include="res\file_toolbar.bmp" />
+    <None Include="res\file_toolbar_goto.bmp" />
+    <None Include="res\HeavenShadow.ico" />
+    <None Include="res\HeavenShadow.rc2" />
+    <None Include="res\HeavenShadowLittle.ico" />
+    <None Include="res\HomeCheckBtn.bmp" />
+    <None Include="res\HomeCheckBtn_click.bmp" />
+    <None Include="res\HomeCheckBtn_hover.bmp" />
+    <None Include="res\LOGO.bmp" />
+    <None Include="res\mainmenu_button.bmp" />
+    <None Include="res\SYSTEM_ALERT.WAV" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar_file.bmp" />
+    <None Include="res\toolbar_file_now.bmp" />
+    <None Include="res\toolbar_kernel.bmp" />
+    <None Include="res\toolbar_kernel_now.bmp" />
+    <None Include="res\toolbar_logo.bmp" />
+    <None Include="res\toolbar_logo_now.bmp" />
+    <None Include="res\toolbar_module.bmp" />
+    <None Include="res\toolbar_module_now.bmp" />
+    <None Include="res\toolbar_process.bmp" />
+    <None Include="res\toolbar_process_now.bmp" />
+    <None Include="res\toolbar_service.bmp" />
+    <None Include="res\toolbar_service_now.bmp" />
+    <None Include="res\toolbar_setting.bmp" />
+    <None Include="res\toolbar_setting_now.bmp" />
+    <None Include="res\toolbar_system.bmp" />
+    <None Include="res\toolbar_system_now.bmp" />
+    <None Include="res\toolbar_tools.bmp" />
+    <None Include="res\toolbar_tools_now.bmp" />
+    <None Include="res\WzdSplash.bmp" />
+    <None Include="res\WzdSplash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlertWnd.h" />
+    <ClInclude Include="CallbackFunc.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="DpcTimerFunc.h" />
+    <ClInclude Include="FilterDriverFunc.h" />
+    <ClInclude Include="InjectFunc.h" />
+    <ClInclude Include="IoTimerFunc.h" />
+    <ClInclude Include="KernelFunc.h" />
+    <ClInclude Include="ModuleFunc.h" />
+    <ClInclude Include="MyCheckBtn.h" />
+    <ClInclude Include="MyText2.h" />
+    <ClInclude Include="PModuleFunc.h" />
+    <ClInclude Include="SSDTFunc.h" />
+    <ClInclude Include="DetailFunc.h" />
+    <ClInclude Include="FileDlg.h" />
+    <ClInclude Include="FileFunc.h" />
+    <ClInclude Include="HandleFunc.h" />
+    <ClInclude Include="HeavenShadow.h" />
+    <ClInclude Include="HeavenShadowDlg.h" />
+    <ClInclude Include="HsAboutDlg.h" />
+    <ClInclude Include="KernelDlg.h" />
+    <ClInclude Include="LoadSys.h" />
+    <ClInclude Include="MemoryFunc.h" />
+    <ClInclude Include="ModuleDlg.h" />
+    <ClInclude Include="MyEdit.h" />
+    <ClInclude Include="MyList.h" />
+    <ClInclude Include="MyPicButton.h" />
+    <ClInclude Include="MyText.h" />
+    <ClInclude Include="PrivilegeFunc.h" />
+    <ClInclude Include="ProcessDlg.h" />
+    <ClInclude Include="ProcessFunc.h" />
+    <ClInclude Include="ProcessViewDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ServiceDlg.h" />
+    <ClInclude Include="SettingDlg.h" />
+    <ClInclude Include="SSSDTFunc.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SystemDlg.h" />
+    <ClInclude Include="SysThread.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThreadFunc.h" />
+    <ClInclude Include="ToolsDlg.h" />
+    <ClInclude Include="TrueColorToolBar.h" />
+    <ClInclude Include="WindowFunc.h" />
+    <ClInclude Include="WzdSplash.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlertWnd.cpp" />
+    <ClCompile Include="ButtonNotify.cpp" />
+    <ClCompile Include="CallbackFunc.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="DpcTimerFunc.cpp" />
+    <ClCompile Include="FilterDriverFunc.cpp" />
+    <ClCompile Include="InjectFunc.cpp" />
+    <ClCompile Include="IoTimerFunc.cpp" />
+    <ClCompile Include="KernelFunc.cpp" />
+    <ClCompile Include="ModuleFunc.cpp" />
+    <ClCompile Include="MyCheckBtn.cpp" />
+    <ClCompile Include="MyText2.cpp" />
+    <ClCompile Include="PModuleFunc.cpp" />
+    <ClCompile Include="SSDTFunc.cpp" />
+    <ClCompile Include="DetailFunc.cpp" />
+    <ClCompile Include="FileDlg.cpp" />
+    <ClCompile Include="FileFunc.cpp" />
+    <ClCompile Include="HandleFunc.cpp" />
+    <ClCompile Include="HeavenShadow.cpp" />
+    <ClCompile Include="HeavenShadowDlg.cpp" />
+    <ClCompile Include="HsAboutDlg.cpp" />
+    <ClCompile Include="KernelDlg.cpp" />
+    <ClCompile Include="LoadSys.cpp" />
+    <ClCompile Include="MemoryFunc.cpp" />
+    <ClCompile Include="ModuleDlg.cpp" />
+    <ClCompile Include="MyEdit.cpp" />
+    <ClCompile Include="MyList.cpp" />
+    <ClCompile Include="MyPicButton.cpp" />
+    <ClCompile Include="MyText.cpp" />
+    <ClCompile Include="PrivilegeFunc.cpp" />
+    <ClCompile Include="ProcessDlg.cpp" />
+    <ClCompile Include="ProcessFunc.cpp" />
+    <ClCompile Include="ProcessViewDlg.cpp" />
+    <ClCompile Include="ServiceDlg.cpp" />
+    <ClCompile Include="SettingDlg.cpp" />
+    <ClCompile Include="SSSDTFunc.cpp" />
+    <ClCompile Include="SSSDTName.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SystemDlg.cpp" />
+    <ClCompile Include="SysThread.cpp" />
+    <ClCompile Include="ThreadFunc.cpp" />
+    <ClCompile Include="ToolsDlg.cpp" />
+    <ClCompile Include="TrueColorToolBar.cpp" />
+    <ClCompile Include="WindowFunc.cpp" />
+    <ClCompile Include="WzdSplash.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HeavenShadow.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="HeavenShadow.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

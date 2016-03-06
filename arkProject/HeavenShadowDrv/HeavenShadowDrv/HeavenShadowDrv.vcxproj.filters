@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="主要文件">
+      <UniqueIdentifier>{bad0c572-5768-45b3-8fad-cd53d570d7fa}</UniqueIdentifier>
+      <Extensions>hpp;h</Extensions>
+    </Filter>
+    <Filter Include="源码文件">
+      <UniqueIdentifier>{b1de6577-e8f0-441c-a634-bbdff67996a8}</UniqueIdentifier>
+      <Extensions>cpp;c;def</Extensions>
+    </Filter>
+    <Filter Include="源码文件\进程">
+      <UniqueIdentifier>{0b59cd14-c3b3-4f18-905c-9dd96064bb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源码文件\模块">
+      <UniqueIdentifier>{a354b1b6-0408-4505-a6ca-f894ee1cc5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源码文件\内核">
+      <UniqueIdentifier>{cf9b4149-a063-4ef4-a736-da90f4c361d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源码文件\钩子">
+      <UniqueIdentifier>{9d1b22be-ff73-4cd4-a9d7-62e52ddfc61c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\HeavenShadowDrv.h">
+      <Filter>主要文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Process.h">
+      <Filter>源码文件\进程</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Thread.h">
+      <Filter>源码文件\进程</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window.h">
+      <Filter>源码文件\进程</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Privilege.h">
+      <Filter>源码文件\进程</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Handle.h">
+      <Filter>源码文件\进程</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Memory.h">
+      <Filter>源码文件\进程</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Module.h">
+      <Filter>源码文件\模块</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CallBack.h">
+      <Filter>源码文件\内核</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DpcTimer.h">
+      <Filter>源码文件\内核</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FilterDriver.h">
+      <Filter>源码文件\内核</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IoTimer.h">
+      <Filter>源码文件\内核</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SysThread.h">
+      <Filter>源码文件\内核</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System.h">
+      <Filter>源码文件\内核</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GetSSSDTFuncAddress.h">
+      <Filter>主要文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common.h">
+      <Filter>主要文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GetFuncAddress.h">
+      <Filter>主要文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Kernel.h">
+      <Filter>源码文件\钩子</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KrnlFile.h">
+      <Filter>源码文件\钩子</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\HeavenShadowDrv.c">
+      <Filter>主要文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Process.c">
+      <Filter>源码文件\进程</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Thread.c">
+      <Filter>源码文件\进程</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window.c">
+      <Filter>源码文件\进程</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Privilege.c">
+      <Filter>源码文件\进程</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Handle.c">
+      <Filter>源码文件\进程</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Memory.c">
+      <Filter>源码文件\进程</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Module.c">
+      <Filter>源码文件\模块</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CallBack.c">
+      <Filter>源码文件\内核</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DpcTimer.c">
+      <Filter>源码文件\内核</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FilterDriver.c">
+      <Filter>源码文件\内核</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IoTimer.c">
+      <Filter>源码文件\内核</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SysThread.c">
+      <Filter>源码文件\内核</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System.c">
+      <Filter>源码文件\内核</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\common.c">
+      <Filter>主要文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GetFuncAddress.c">
+      <Filter>主要文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GetSSSDTFuncAddress.c">
+      <Filter>主要文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Kernel.c">
+      <Filter>源码文件\钩子</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KrnlFile.c">
+      <Filter>源码文件\钩子</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
